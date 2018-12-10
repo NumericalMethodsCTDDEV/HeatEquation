@@ -1,4 +1,4 @@
-# Lorenz System Solver
+# Heat Equation Numerical Solutions
 
 ## How to build:
 
