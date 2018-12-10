@@ -16,9 +16,6 @@ make
 
 ```
 
-Change 3rd line to `cmake .. ` to use qt libraries
-
-
 ## How to run:
 
 Run from build folder:
