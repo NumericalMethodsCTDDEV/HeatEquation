@@ -9,7 +9,7 @@ class ConfigSingleton
     static const ConfigSingleton *configSingletonPtr;
 
     ConfigSingleton(double u, double k, double dt, double dx, int method_id, int start_profile_id)
-        : u(u), k(k), dt(dt), dx(dx), s(u / dx), r(k * dt / (dx * dx)), method_id(method_id), start_profile_id(start_profile_id)
+        : u(u), k(k), dt(dt), dx(dx), s(u * dt / dx), r(k * dt / (dx * dx)), method_id(method_id), start_profile_id(start_profile_id)
     {
     }
 

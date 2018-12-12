@@ -29,6 +29,6 @@ void Leapfrog::do_step()
                 s * (T[i - 1] - T[i + 1]) +
                 TT[i];
     }
-    TT.swap(T);
+    TT = T;
     T.swap(new_T);
 }
